@@ -1,0 +1,21 @@
+
+inviteButton.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+inviteOn
+  rotate: false
+  xy: 1, 1
+  size: 160, 100
+  split: 67, 83, 60, 27
+  orig: 160, 100
+  offset: 0, 0
+  index: -1
+inviteOff
+  rotate: false
+  xy: 163, 1
+  size: 160, 100
+  split: 67, 83, 60, 27
+  orig: 160, 100
+  offset: 0, 0
+  index: -1
