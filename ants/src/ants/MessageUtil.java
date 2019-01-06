@@ -21,4 +21,12 @@ public class MessageUtil
 		System.out.println(message);
 		return message;
 	}
+	
+	// prints the message
+	public static String printMessage(String message)
+	{
+		System.out.println(message);
+		return message;
+	}
+	
 }

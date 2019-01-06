@@ -4,6 +4,10 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 import org.junit.jupiter.api.BeforeAll;
@@ -63,4 +67,16 @@ class StartProgramTest
 		assertTrue(list.contains(-3));
 		assertFalse(list.isEmpty());
 	}
+	
+	@Test
+	public void testResourcesAccess() throws IOException
+	{
+	/*	InputStream res = StartProgram.class.getResourceAsStream("/data/test.txt");
+		BufferedReader reader = new BufferedReader(new InputStreamReader(res));
+		String line = null;
+		while ((line = reader.readLine()) != null) {
+			System.out.println(line);
+		}
+		reader.close();
+	*/}
 }
