@@ -1,4 +1,4 @@
-package ants;
+package antsTest;
 /*
 * This class prints the given message on console.
 */
